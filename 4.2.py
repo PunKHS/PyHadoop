@@ -2,7 +2,7 @@
 import sys
 
 dic = {}
-# for line in open('text_4.2.txt', 'r'):
+# for line in open('4.2.txt', 'r'):
 for line in sys.stdin:
 
     words = line.strip().split()

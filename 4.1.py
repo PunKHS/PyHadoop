@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
 
-for line in open('text_4.1.txt', 'r'):
+for line in open('4.1.txt', 'r'):
 # for line in sys.stdin:
     dic = {}
     words = line.strip().split()
